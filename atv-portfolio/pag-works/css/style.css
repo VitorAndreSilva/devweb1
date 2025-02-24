@@ -1,0 +1,181 @@
+/*=======
+css reset
+============*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+/*=======
+formatação geral
+============*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+
+html body a {
+    text-decoration: none;
+    color: #21243d;
+}
+
+header {
+    margin: 0 5vw 3vw 5vw;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li {
+    margin: 2vw 10px 0 10px;
+}
+
+header nav ul li.atual a {
+    color: #FF6464;
+}
+
+main {
+    margin: 0vw 15vw 0vw 15vw;
+}
+
+/*=======
+formatação works
+============*/
+
+main.works section {
+    border-bottom: 1px solid #E0E0E0;
+    margin: 2vw 0 2vw 0;
+}
+
+main.works section:last-child {
+    border: 0;
+}
+
+main.works h1 {
+    font-weight: normal; /*Tirando negrito do titulo*/
+}
+
+main.works section p {
+    margin: 1vw 0 1vw 0;
+}
+
+main.works section p span {
+    color: white;
+    background-color: #FF7C7C;
+    border-radius: 20px;
+    padding: 3px 10px 2px 10px;
+    font-weight: bold; /*negrito*/
+}
+
+
+/*=======
+formatação home page
+============*/
+
+section.banner {
+    display: flex;
+    margin: 6vw 0 4.5vw 0;
+}
+
+section.banner h1 {
+    font-size: 2rem;
+}
+section.banner p {
+    margin: 2vw 12vw 2vw 0;
+}
+
+section.banner button {
+    margin: 1vw 0 1vw 0;
+    color: white;
+    background-color: #FF6464;
+    height: 3vw;
+    width: 13vw;
+    font-size: 0.75rem;
+    padding: 5px 10px 5px 10px;
+    border-radius: 1px;
+}
+
+section.rt-posts {
+    background-color: #EDF7FA;;
+    padding: 2vw 2vw 2vw 0;
+}
+
+section.rt-posts h2 {
+    font-weight: normal;
+    margin: 0 0 2vw 0;
+}
+
+section.rt-posts h3 {
+    font-weight: normal;
+    margin: 1.5vw 1.5vw 1.5vw 1.5vw;
+}
+
+section.rt-posts ul {
+    display: flex;
+}
+
+section.rt-posts ul li {
+    background-color: white;
+    padding: 1.5vw 1vw 1.5vw 1vw;
+    margin: 0 1.5vw 0 0;
+}
+
+section.rt-posts ul li:last-child {
+    margin: 0;
+}
+
+section.rt-posts ul li p {
+    background-color: white;
+    margin: 1.5vw 0vw 1.5vw 0vw;
+}
+
+section.ftWorks h2 {
+    font-weight: normal;
+}
+
+section.ftWorks > div {
+    display: flex;
+}
+
+section.ftWorks p {
+    margin: 1vw 0 1vw 0;
+}
+
+section.ftWorks div div p span {
+    color: white;
+    background-color: #142850;
+    border-radius: 20px;
+    padding: 3px 10px 2px 10px;
+    font-weight: bold; /*negrito*/
+}
+
+section.ftWorks div div p.container {
+    color: #8695A4;
+}
+
+/*=======
+formatação do rodapé
+============*/
+
+footer {
+    text-align: center;
+    padding: 1vw 0 2vw 0;
+}
+
+footer nav ul {
+    display: flex; /*Alinha um ao lado do outro*/
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 30px 15px 30px 15px;
+    font-size: calc(15px + 1vw);
+}

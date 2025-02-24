@@ -1,0 +1,207 @@
+/*FORMATAÇÃO GERAL*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*FORMATAÇÃO TOPO*/
+
+header {
+    background-color: #3B8686;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10vw 25px 10vw;
+}
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 3.75vw;
+}
+
+header nav .atual:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px 15px;
+    border-radius: 17px;
+}
+
+/*FORMATAÇÃO SECTION BANNER */
+
+main section.banner {
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)),
+    url(../src/images/back-banner.png) no-repeat center center;
+    /*background: linear-gradient(rgba(121, 189, 154, 1)), url(../src/images/back-banner.png) no-repeat center center, linear-gradient(121, 189, 154, 1);*/
+    background-size: 100% auto;
+    padding: 20vw 10vw 5vw 10vw;
+}
+
+main section.banner h1 {
+    width: 40%;
+    color: white;
+    font-size: 2.5rem;
+    background-color: rgba(59, 132, 132, 0.5);
+    padding: 3vw 2vw 3vw 2vw;
+}
+
+/* FORMATAÇÃO SECTION BENEFÍCIOS */
+
+main section.beneficios ul {
+    display: flex;
+    text-align: center;
+    height: 25vw;
+    margin: 8vw 9vw 0 17vw;
+}
+
+main section.beneficios ul li {
+    margin-right: 8vw;
+}
+
+main section.beneficios ul li span {
+    font-size: 3.5vw;
+}
+
+main section.beneficios ul li h2 {
+    margin: 2vw 0 1.25vw 0;
+    color: #2D2D2D;
+    font-size: 1.25rem;
+}
+
+main section.beneficios ul li p {
+    color: #747474;
+    font-size: 0.75rem;
+    margin-bottom: 1vw;
+    line-height: 1.5;
+}
+
+main section.beneficios ul li button {
+    background-color: #3B8686;
+    color: #FFFFFF;
+    border: none;
+    height: 2.5vw;
+    width: 8.5vw;
+}
+
+/* FORMATAÇÃO SECTION NUMBERS */
+
+main section.numbers {
+    background: linear-gradient(rgba(0, 255, 179, 0.35), rgba(0, 255, 179, 0.35)), url(../src/images/back-numeros.png) no-repeat center center;
+    background-size: 100% auto;
+    /*height: 40vw;*/
+}
+
+main section.numbers ul {
+    display: flex;
+    justify-content: center;
+    /*text-align: center;*/
+    height: 15vw;
+    color: #FFFFFF;
+    margin-left: 2vw;
+    /*margin: 15vw 0 15vw 0;*/
+    font-size: 2rem;
+}
+
+main section.numbers ul li {
+    margin: 5vw 8vw 0 5vw;
+    text-align: center;
+}
+
+/* FORMATAÇÃO DA SECTION ACTIVITIES */
+
+main section.activities {
+    display: flex;
+    margin: 7vw 8vw 10vw 8vw;
+}
+
+main section.activities div h2 {
+    /*margin-top: 7vw;*/
+    color: #0B486B;
+    font-size: 1.75rem;
+    margin-bottom: 2vw;
+}
+
+main section.activities div p {
+    color: #747474;
+    line-height: 1.5;
+    max-width: 34vw;
+    /*margin-right: 15vw;*/
+}
+
+main section.activities div button {
+    background-color: #0B486B;    ;
+    color: #FFFFFF;
+    border: none;
+    height: 2.5vw;
+    width: 8.5vw;
+    font-weight: 600;
+    margin-top: 1vw;
+}
+
+main section.activities img {
+    height: 22vw;
+    width: auto;
+    margin-left: 10vw;
+}
+
+/* FORMATAÇÃO FOOTER */
+
+footer {
+    background-color: #3B8686;
+    color: #FFFFFF;
+}
+
+footer section {
+    margin-left: 12vw;
+    padding-bottom: 5vw;
+    padding-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .redes {
+    /*margin-right: 15vw;*/
+    font-size: 0.7rem;
+}
+
+footer .redes span {
+    font-size: 1.5rem;
+    margin: 0 0.5vw 1.25vw 0;
+}
+
+footer .contact {
+    margin-right: 10vw;
+}
+
+footer .contact h3 {
+    font-size: 0.8rem;
+    font-weight: 800;
+    margin-bottom: 0.55vw;
+}
+
+footer .contact div div {
+    display: flex;
+    margin-bottom: 0.5vw;
+}
+
+footer .contact div div p {
+    font-size: 0.75rem;
+    margin-left: 0.5vw;
+}
+
+footer .assistant {
+    margin-right: 12vw;
+    font-weight: 100;
+}
+
+footer .assistant li {
+    margin-bottom: 1.3vw;
+    text-align: end;
+}

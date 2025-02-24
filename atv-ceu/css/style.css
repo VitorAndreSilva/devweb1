@@ -1,0 +1,323 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*==FORMATAÇÃO DO HEADER==*/
+
+header {
+    height: 4vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0.1vw 0;
+}
+
+h1 {
+    color: #1090CB;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1vw 0 1vw 2vw;
+}
+
+header ul {
+    display: flex;
+    margin: 0.5vw 4vw 2vw 0;
+    font-size: 1.2rem;
+}
+
+header ul li {
+    margin-left: 3vw;
+    padding: 1vw;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header ul li.atual a {
+    color: #1090CB;
+}
+
+header ul li.contact a {
+    background-color: #1090CB;
+    color: white;
+    /* height: 2vw; */
+    padding: 1vw;
+    border-radius: 0.5vw;
+    width: 5vw;
+    text-align: center;
+}
+
+/*==FORMATAÇÃO DA SECTION INICIAL==*/v
+
+.inicio {
+    display: flex;
+    background-color: #1090CB20;
+}
+
+section.inicio {
+    margin: 10vw 0 0 12vw;
+}
+
+section.inicio div h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2vw;
+}
+
+section.inicio div h2 span {
+    color: #1090CB;
+}
+
+section.inicio div p {
+    color: #5C5C5C;
+    margin-right: 22vw;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 3vw;
+}
+
+section.inicio div .contactUs {
+    background-color: #1090CB;
+    border: 1px solid #1090CB;
+    color: white;
+    padding: 17px 55px 17px 55px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+section.inicio div .more {
+    background-color: white;
+    border: 1px solid #1090CB;
+    color: #1090CB;
+    padding: 17px 55px 17px 55px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* section.inicio img {
+    
+} */
+
+/*==FORMATAÇÃO DA SECTION ICONES==*/
+
+section.icones {
+    margin: 2vw 0vw 2vw 0vw;
+}
+
+.icones ul {
+    display: flex;
+    margin-left: 6vw;
+}
+
+.icones ul li {
+    display: flex;
+    margin: 0 4vw 0 2vw;
+    /* margin-left: 4vw; */
+}
+
+.icones ul li .website {
+    background-color: #EFEAFF;
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+}
+
+.icones ul li .seo {
+    background-color: #ECFFDA;
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+}
+
+.icones ul li .vr {
+    background-color: #DAE6FF;
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+}
+
+.icones ul li .codigo {
+    background-color: #FFE5DA;
+    padding: 1.7vw;
+    border-radius: 1.3vw;
+}
+
+.icones ul li div h3 {
+    color: #000;
+    font-size: 1.5rem;
+    margin: 0.5vw 0 1vw 1vw;
+}
+
+.icones ul li div p {
+    color: #969696;
+    margin-left: 1vw;
+    font-size: 1.2rem;
+}
+
+/*==FORMATAÇÃO SECTION TELAS==*/
+
+.telas .printing {
+    text-align: center;
+    /* margin-top: 8vw; */
+    border-bottom: 1px solid #C7C7C7;
+    margin: 11vw 3vw 7vw 3vw;
+}
+
+.telas .printing h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.telas .printing p {
+    /* margin: 2vw 0 2vw 0; */
+    font-size: 1.1rem;
+    margin: 2vw 30vw 2vw 30vw;
+    color: #868686;
+    line-height: 1.5;
+}
+
+.telas .celular {
+    display: flex;
+    margin: 0 7vw 0 7vw;
+}
+
+.telas .celular div h2 {
+    font-size: 2.3rem;
+    line-height: 1.25;
+}
+
+.telas .celular div h2 span {
+    color: #1090CB;
+}
+
+.telas .celular div p {
+    color: #545454;
+    margin: 3vw 20vw 0 0;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* .telas .celular img {
+    margin-bottom: 10vw;
+} */
+
+.telas .prints {
+    margin: 5vw 7vw 9vw 3vw;
+    display: flex;
+}
+
+.telas .prints div h2 {
+    font-size: 2.3rem;
+    line-height: 1.25;
+    margin: 10vw 9vw 0 18vw;
+}
+
+.telas .prints div h2 span {
+    color: #1090CB;
+}
+
+.telas .prints div p {
+    color: #545454;
+    margin: 3vw 9vw 0 18vw;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/*==FORMATAÇÃO SECTION KODEX==*/
+
+.kodex {
+    margin: 0 8vw 7vw 8vw;
+    display: flex;
+}
+
+.kodex .branco {
+    background-color: #F4F4F4;
+    border-radius: 1vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+
+.kodex .branco h3 {
+    margin: 3vw 0 3vw 0;
+    font-size: 1.8rem;
+}
+
+.kodex .branco p {
+    margin: 0 5vw 3vw 5vw;
+    line-height: 1.7;
+    color: #545454;
+}
+
+.kodex .branco button {
+    margin-bottom: 2vw;
+    background-color: #1090CB;
+    border: 1px solid #1090CB;
+    color: white;
+    padding: 17px 55px 17px 55px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.kodex .azul {
+    background-color: #1090CB;
+    border-radius: 1vw;
+    margin-right: 2vw;
+    text-align: center;
+}
+
+.kodex .azul h3 {
+    margin: 3vw 0 3vw 0;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.kodex .azul p {
+    margin: 0 5vw 3vw 5vw;
+    line-height: 1.7;
+    color: white;
+}
+
+.kodex .azul button {
+    margin-bottom: 2vw;
+    background-color: white;
+    border: 1px solid white;
+    color: #1090CB;
+    padding: 17px 55px 17px 55px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/*==SECTION E-MAIL==*/
+
+.email {
+    background-color: #E8F4FA;
+    text-align: center;
+}
+
+.email h2 {
+    font-size: 1.8rem;
+    margin-bottom: 3vw;
+    padding-top: 7vw;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.email form {
+    display: flex;
+    justify-content: center;
+}
+
+.email form p input#email {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0.7vw;
+    padding: 22px 250px 22px 50px;
+    color: #787878;
+}
+
+.email form p input#subscribe {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2vw;
+    color: white;
+    padding: 22px 55px;
+    border-radius: 0.7vw;
+    margin-left: 1vw;
+}
+

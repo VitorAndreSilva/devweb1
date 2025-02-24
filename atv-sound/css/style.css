@@ -1,0 +1,68 @@
+/*CSS Reset*/
+ 
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+/*Formatação da Página*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw 2vw 15vw;
+}
+body header nav ul{
+    display: flex;
+}
+body header nav ul li a{
+    margin: 0 1vw 0 1vw;
+    text-decoration: none;
+    color: #553C16;
+}
+body main section.inicio {
+    margin: 3vw 10vw 0 10vw;
+    display: flex;
+}
+body main section.inicio img {
+    margin: 0 10vw 0 5vw;
+}
+body main section.inicio div.titulo h1 {
+    font-size: 3rem;
+    margin: 10vw 0 10vw 10vw;
+}
+body main section.inicio div.titulo p {
+    font-size: 1vw;
+}
+body main section.inicio div.silhueta {
+    display: flex;
+    margin: 2vw;
+}
+body main section.inicio div.silhueta img {
+    border-radius: 3vw;
+    margin: 0 1vw 0 0;
+}
+
+body main section.browse {
+    margin: 3vw 10vw 0 10vw;
+    display: flex;
+    border-top: solid 1px black;
+}
+body main section.browse h1 {
+    font-size: 3rem;
+    margin: 10vw 10vw 0 0;
+}
+body main section.browse p {
+    font-size: 1vw;
+    margin: 2vw 0 2vw 0;
+    color: #404852;
+}
+body main section.browse div.number span{
+    color: gray;
+}
